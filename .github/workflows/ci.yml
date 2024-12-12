@@ -7,10 +7,9 @@ jobs:
       - name: Checkout du code
         uses: actions/checkout@v2
       - name: Configurer python
-        uses: actions/setup-python@v2
-        with: 
-          python-version: 3.x
-      
+          uses: actions/setup-python@v2
+          with: 
+            python-version: 3.x
       - name: Installer les dependances
         run: |
           pip install pytest
