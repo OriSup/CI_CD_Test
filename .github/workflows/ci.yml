@@ -8,8 +8,13 @@ jobs:
         uses: actions/checkout@v2
       - name: Configurer python
         uses: actions/setup-python@v2
+<<<<<<< HEAD
         with: 
           python-version: 3.x
+=======
+        with:
+          python-version:'3.x'
+>>>>>>> 398b2326c86dd11bb7aa314c7ca2c3e80797fb06
       
       - name: Installer les dependances
         run: |
