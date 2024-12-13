@@ -4,4 +4,4 @@ def test_greet(capsys):
     greet("Alice")
     captured = capsys.readouterr()
 
-    assert captureed.out == "Bonjour, Alice !\n"
+    assert captured.out == "Bonjour, Alice !\n"
